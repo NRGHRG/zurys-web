@@ -25,6 +25,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        protocol: "https",
+        hostname: "fudo-apps-storage.s3.sa-east-1.amazonaws.com",
+      },
+      {
+        protocol: "https",
+        hostname: "fudo-apps-storage.s3-sa-east-1.amazonaws.com",
+      },
     ],
   },
   async headers() {

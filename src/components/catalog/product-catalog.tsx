@@ -12,17 +12,40 @@ import {
 type CatalogProps = {
   initialCategory?: ProductCategory | "all";
   featuredOnly?: boolean;
+  allowedCategories?: ProductCategory[];
 };
 
 export function ProductCatalog({
   initialCategory = "all",
   featuredOnly = false,
+  allowedCategories,
 }: CatalogProps) {
+  const allowedCategorySet = useMemo(
+    () => (allowedCategories && allowedCategories.length > 0 ? new Set(allowedCategories) : null),
+    [allowedCategories],
+  );
+
+  const safeInitialCategory: ProductCategory | "all" =
+    initialCategory !== "all" && allowedCategorySet && !allowedCategorySet.has(initialCategory)
+      ? "all"
+      : initialCategory;
+
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState<ProductCategory | "all">(initialCategory);
+  const [category, setCategory] = useState<ProductCategory | "all">(safeInitialCategory);
+
+  const visibleCategories = useMemo(() => {
+    if (!allowedCategorySet) {
+      return productCategories;
+    }
+
+    return productCategories.filter(
+      (item) => item.value === "all" || allowedCategorySet.has(item.value),
+    );
+  }, [allowedCategorySet]);
 
   const filtered = useMemo(() => {
     return products.filter((product) => {
+      if (allowedCategorySet && !allowedCategorySet.has(product.category)) return false;
       if (featuredOnly && !product.featured) return false;
       if (category !== "all" && product.category !== category) return false;
 
@@ -34,7 +57,7 @@ export function ProductCatalog({
         .toLowerCase()
         .includes(normalizedQuery);
     });
-  }, [category, featuredOnly, query]);
+  }, [allowedCategorySet, category, featuredOnly, query]);
 
   return (
     <section className="space-y-4">
@@ -49,7 +72,7 @@ export function ProductCatalog({
         />
 
         <div className="flex flex-wrap gap-2">
-          {productCategories.map((item) => (
+          {visibleCategories.map((item) => (
             <button
               key={item.value}
               type="button"

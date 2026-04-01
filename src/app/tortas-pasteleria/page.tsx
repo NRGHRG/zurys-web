@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { ProductCatalog } from "@/components/catalog/product-catalog";
 import { PageHeader } from "@/components/sections/page-header";
+import { menuCategoryGroups } from "@/lib/data/products";
 
 export const metadata: Metadata = {
   title: "Tortas y Pastelería",
@@ -9,6 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function TortasPasteleriaPage() {
+  const tortasPasteleriaCategories = [...menuCategoryGroups["tortas-pasteleria"]];
+
   return (
     <div className="space-y-8">
       <PageHeader
@@ -16,7 +19,10 @@ export default function TortasPasteleriaPage() {
         title="Tortas y Pastelería"
         description="Diseños elegantes, sabores equilibrados y presentación de alto nivel para tus celebraciones."
       />
-      <ProductCatalog initialCategory="tortas-pasteleria" />
+      <ProductCatalog
+        initialCategory={tortasPasteleriaCategories[0] ?? "all"}
+        allowedCategories={tortasPasteleriaCategories}
+      />
     </div>
   );
 }

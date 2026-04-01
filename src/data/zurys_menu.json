@@ -1,0 +1,3347 @@
+{
+  "account": {
+    "name": "La Cafetería de Zurys",
+    "settings": {
+      "appearance": {
+        "colorScheme": null,
+        "typography": null,
+        "template": 1,
+        "categoryIcons": {
+          "enabled": true,
+          "variant": "stroke"
+        }
+      },
+      "currencySymbol": "$",
+      "countryCode": "cl",
+      "cardsViewEnabled": true,
+      "name": null,
+      "pickup": false,
+      "delivery": false,
+      "dataCollectionEnabled": false,
+      "availableTimes": {
+        "pickup": {
+          "availableNow": false,
+          "times": [
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ],
+            [
+              [
+                "10:00",
+                "21:30"
+              ]
+            ]
+          ]
+        },
+        "delivery": {
+          "availableNow": false,
+          "times": [
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ],
+            [
+              [
+                "00:00",
+                "23:59"
+              ]
+            ]
+          ]
+        },
+        "selfService": {
+          "availableNow": true,
+          "times": null
+        }
+      },
+      "backgroundImage": {},
+      "contact": {
+        "email": null,
+        "phone": null,
+        "whatsapp": null,
+        "address": null
+      },
+      "social": {
+        "facebook": null,
+        "instagram": null
+      },
+      "onlinePaymentMethods": [],
+      "offlinePaymentMethods": {
+        "delivery": [],
+        "pickup": []
+      },
+      "paymentMethodDiscounts": [],
+      "openingHours": null,
+      "location": {},
+      "logo": {},
+      "onlineMenuEnabled": false,
+      "qrMenu": {
+        "backgroundImage": {
+          "url": "https://fudo-apps-storage.s3-sa-east-1.amazonaws.com/production/105302/qr-menu/background-image"
+        },
+        "enabled": true,
+        "logo": {
+          "url": "https://fudo-apps-storage.s3-sa-east-1.amazonaws.com/production/105302/qr-menu/logo",
+          "shape": "circle"
+        },
+        "name": null,
+        "contact": {
+          "email": null,
+          "phone": null,
+          "whatsapp": null,
+          "address": null
+        },
+        "social": {
+          "facebook": "https://www.facebook.com/zuryscafe/",
+          "instagram": "https://www.instagram.com/zuryscafeteria/"
+        },
+        "openingHours": null,
+        "selfService": null,
+        "showProductImages": true
+      },
+      "requireCashAmount": null,
+      "shippingCost": null,
+      "autocompleteRestrictionLevel": "optional",
+      "deliveryZones": [],
+      "minimumAmount": {
+        "enabled": null,
+        "value": null
+      },
+      "coupons": {
+        "enabled": null
+      },
+      "tracking": {
+        "enabled": null
+      },
+      "scheduleOrder": {
+        "enabled": false
+      },
+      "pixel": null,
+      "paused": false,
+      "customerRegistration": null,
+      "customerRegistrationEnabled": null,
+      "activeOnlineMenuPlus": false,
+      "logistics": null,
+      "uberDirectCashEnabled": false,
+      "feeSettings": {
+        "isServiceFeeBonified": true,
+        "serviceFeePercentage": 0,
+        "serviceFeeFixedAmount": 400,
+        "transferredServiceFeePercentage": 0
+      },
+      "taxConditionValid": false,
+      "countryTaxPercentage": 19,
+      "banner": {
+        "backgroundColor": null,
+        "enabled": null,
+        "message": null
+      },
+      "carousel": {}
+    }
+  },
+  "categories": [
+    {
+      "id": 2,
+      "name": "Bebidas Caliente",
+      "position": 37500,
+      "products": [
+        {
+          "id": 3,
+          "name": "Americano",
+          "description": "Sumérgete en la intensidad doble de nuestro Americano Doble Shot. Delicioso espresso mezclado con agua caliente para un sabor suave y potente en cada sorbo.",
+          "price": 2100.0,
+          "priceDelivery": 2100.0,
+          "pricePickup": 2100.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/3",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 120,
+          "name": "Café de Grano (Bolsa 250 gr)",
+          "description": "",
+          "price": 8800.0,
+          "priceDelivery": 8800.0,
+          "pricePickup": 8800.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 4,
+          "name": "Cappuccino",
+          "description": "Disfruta la armonía perfecta de nuestro Cappuccino artesanal, con espresso aromático y leche suavemente espumada. Elije entre Cappuccino tradicional o bien algún sabor entre Vainilla, Caramelo, Amaretto, Coco, Avellanas o Crema Irlandesa (Valor adicional por sabor $350)",
+          "price": 2700.0,
+          "priceDelivery": 2700.0,
+          "pricePickup": 2700.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/4",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 19,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Cafe",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 285
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 286
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 282
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 284
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 287
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 283
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 281
+                }
+              ],
+              "title": "Sabor Cafe",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 266,
+          "name": "Chai Latte",
+          "description": "Nuestro mezcla de té chai y leche perfectamente vaporizada, decorado con una sutil capa de espuma de leche.",
+          "price": 3800.0,
+          "priceDelivery": 3800.0,
+          "pricePickup": 3800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/266",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 60,
+          "name": "Chocolate Caliente",
+          "description": "Prueba nuestro delicioso Chocolate Caliente. Una experiencia reconfortante y dulce en cada sorbo. Prueba la versión tradicional, Choco Naranja , Choco Maqui o Choco Avellanas",
+          "price": 4000.0,
+          "priceDelivery": 4000.0,
+          "pricePickup": 4000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/60",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 29,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Chocolate Caliente",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 420
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 412
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 410
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 445
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 73,
+          "name": "Chocolate Caliente c/marshmallow",
+          "description": "Prueba nuestro Chocolate Caliente con malvaviscos. Una deliciosa mezcla de sabor y suavidad que te cautivará en cada sorbo. Disfruta de un momento dulce y reconfortante. Prueba la versión tradicional, Choco Naranja, Choco Maqui o Choco Avellanas.",
+          "price": 4300.0,
+          "priceDelivery": 4300.0,
+          "pricePickup": 4300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/73",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 29,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Chocolate Caliente",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 420
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 412
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 410
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 445
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 300,
+          "name": "Dirty Chai Latte",
+          "description": "La perfecta fusión entre el sabor cálido y especiado del chai latte tradicional y un toque de café espresso, creando una bebida reconfortante y energizante. Disfruta de la combinación de especias como canela, cardamomo y jengibre, acompañadas por la intensidad del café, todo suavizado con leche cremosa. Ideal para quienes buscan una experiencia única y estimulante en cada sorbo.",
+          "price": 4200.0,
+          "priceDelivery": 4200.0,
+          "pricePickup": 4200.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/300",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 10,
+          "name": "Espresso",
+          "description": "Disfruta el doble de intensidad con nuestro Espresso Doble. Un café robusto y suave en cada sorbo. La elección perfecta para los amantes del café exigentes.",
+          "price": 1800.0,
+          "priceDelivery": 1800.0,
+          "pricePickup": 1800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/10",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 43,
+          "name": "Extra Shot Espresso",
+          "description": "Extra shot simple de café",
+          "price": 600.0,
+          "priceDelivery": 600.0,
+          "pricePickup": 600.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/43",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 39,
+          "name": "Latte",
+          "description": "Descubre la perfección en una taza con nuestro Latte artesanal. Espresso suave y cremosa leche mezclada en armonía. Elije entre Latte tradicional o bien algún sabor entre Vainilla, Caramelo, Amaretto, Coco, Avellanas o Crema Irlandesa (Valor adicional por sabor $350)",
+          "price": 3300.0,
+          "priceDelivery": 3300.0,
+          "pricePickup": 3300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/39",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 19,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Cafe",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 285
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 286
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 282
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 284
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 287
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 283
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 281
+                }
+              ],
+              "title": "Sabor Cafe",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 248,
+          "name": "Leche caliente",
+          "description": "",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/248",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 351,
+          "name": "Matcha Latte",
+          "description": "Fusión de té verde matcha japonés y leche cremosa, para un sabor suave y energizante.",
+          "price": 3800.0,
+          "priceDelivery": 3800.0,
+          "pricePickup": 3800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/351",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 23,
+              "maxQuantity": 1.0,
+              "minQuantity": 0.0,
+              "name": "Matcha Latte",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 283
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 350.0,
+                  "productId": 281
+                }
+              ],
+              "title": "Matcha Latte",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "Moca",
+          "description": "Sumérgete en el placer del Café Moca, una fusión irresistible de espresso, chocolate y leche espumada. Una experiencia de sabor intensa y deliciosa en cada sorbo. Satisface tus antojos con este equilibrio perfecto entre café y chocolate.",
+          "price": 3800.0,
+          "priceDelivery": 3800.0,
+          "pricePickup": 3800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/41",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 333,
+          "name": "Moca Blanco",
+          "description": "Sumérgete en el placer del Café Moca blanco, una fusión irresistible de espresso, chocolate blanco y leche espumada. Una experiencia de sabor intensa y deliciosa en cada sorbo. Satisface tus antojos con este equilibrio perfecto entre café y chocolate.",
+          "price": 3800.0,
+          "priceDelivery": 3800.0,
+          "pricePickup": 3800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/333",
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 42,
+          "name": "Te Adagio",
+          "description": "Explora una gama de sabores únicos con nuestras infusiones de Té Adagio: Tés Negros: Ceylon Sonata, Canela, Earl Grey, Masala Chai, Frutos del Bosque y Mango. Tés Rojos: Frutilla Avellanas o Naranja Chips. Té Rooibos: Verde Bonita. Té Foxtrot, Té Oolong Almendra o Té Verde: Frambuesa. ¡Una experiencia de té variada y cautivadora para disfrutar en cada sorbo!",
+          "price": 2500.0,
+          "priceDelivery": 2500.0,
+          "pricePickup": 2500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/42",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 28,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Té",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 405
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 398
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 399
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 401
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 408
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 400
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 397
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 407
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 403
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 409
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 402
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 406
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 100,
+          "name": "Té con Leche",
+          "description": "Disfruta de un Te con Leche suave y reconfortante. La perfecta armonía entre el té Ceylán y la leche te cautivará. Una experiencia de sabor que endulzará tu día.",
+          "price": 3400.0,
+          "priceDelivery": 3400.0,
+          "pricePickup": 3400.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/100",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 75,
+          "name": "Tetera 2 porciones",
+          "description": "Explora una variedad de sabores en nuestra Tetera de dos porciones Adagio. Tés Negros: Ceylon Sonata, Canela, Earl Grey, Masala Chai, Frutos del Bosque y Mango. Tés Rojos: Frutilla Avellanas o Naranja Chips. Té Rooibos: Verde Bonita. Té Foxtrot, Té Oolong Almendra o Té Verde: Frambuesa. ¡Comparte una experiencia de té única y deliciosa!",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/75",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 28,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Té",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 405
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 398
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 399
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 401
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 408
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 400
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 397
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 407
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 403
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 409
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 402
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 406
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Bebidas Frias",
+      "position": 75000,
+      "products": [
+        {
+          "id": 33,
+          "name": "Affogato",
+          "description": "Helado de vainilla ahogado en doble shot de espresso",
+          "price": 3100.0,
+          "priceDelivery": 3100.0,
+          "pricePickup": 3100.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/33",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 6,
+          "name": "Agua Mineral c/gas",
+          "description": "",
+          "price": 1800.0,
+          "priceDelivery": 1800.0,
+          "pricePickup": 1800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/6",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 12,
+          "name": "Agua Mineral s/gas",
+          "description": "",
+          "price": 1800.0,
+          "priceDelivery": 1800.0,
+          "pricePickup": 1800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/12",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 38,
+          "name": "Batido de Fruta",
+          "description": "Refréscate con nuestro Batido de Fruta de frutilla, arándanos, mango, piña o frambuesa, una mezcla deliciosa y cremosa. Disfruta de una experiencia frutal y sabrosa en cada sorbo.",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/38",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 30,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Fruta (Batidos)",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 386
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 385
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 387
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 388
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 391,
+          "name": "Bebida en Lata",
+          "description": "Lata de 350 ml. Consultar stock disponible.",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/391",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 26,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Bebidas",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 123
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 72
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 30
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 28
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 124
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 25
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 126
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 192
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 113
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 27
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 26
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 29
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 170
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 255
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 123,
+          "name": "Bilz",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 35,
+          "name": "Café Helado",
+          "description": "Disfruta de nuestro Café Helado con dos bolas de helado de vainilla, café, leche, salsa de chocolate y decorado con crema chantilly.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/35",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 36,
+          "name": "Chocolate Helado",
+          "description": "Disfruta de nuestro Chocolate Helado con dos bolas de helado de chocolate, base de leche y chocolate, salsa de chocolate y crema chantilly.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/36",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 72,
+          "name": "Coca Cola",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 30,
+          "name": "Coca Cola Zero",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 141,
+          "name": "Espresso Naranja",
+          "description": "Espresso doble sobre jugo de naranja, una bebida refrescante!",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/141",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 28,
+          "name": "Fanta",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 124,
+          "name": "Fanta Sin Azúcar",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 34,
+          "name": "Frappuccino",
+          "description": "Disfruta de nuestro Café Frappuccino, con opciones de syrup a elección: vainilla, avellana, Irish cream, coco, caramelo o amaretto, y decorado con crema chantilly. Una bebida refrescante y deliciosa.",
+          "price": 4100.0,
+          "priceDelivery": 4100.0,
+          "pricePickup": 4100.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/34",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 27,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Frappuccino / Latte Frio",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 285
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 286
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 282
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 284
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 287
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 283
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 281
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 255,
+          "name": "Inca Kola",
+          "description": "Lata 350 ml",
+          "price": 1800.0,
+          "priceDelivery": 1800.0,
+          "pricePickup": 1800.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 390,
+          "name": "Jugo de Fruta",
+          "description": "Disfruta de la frescura y auténtico sabor de nuestro jugo con pulpa de fruta. Elige entre una deliciosa variedad de sabores: frutilla, mango, piña o frambuesa.",
+          "price": 3400.0,
+          "priceDelivery": 3400.0,
+          "pricePickup": 3400.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/390",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 25,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Jugo",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 427
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 428
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 430
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 429
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Kem",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 68,
+          "name": "Latte Frío",
+          "description": "Disfruta de nuestro Latte Frío, con syrup a elección: vainilla, avellana, Irish cream, coco, caramelo o amaretto. Espresso doble y leche fría adornados espuma de leche",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/68",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 27,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Frappuccino / Latte Frio",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 285
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 286
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 282
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 284
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 287
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 283
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 281
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 85,
+          "name": "Limonada Frambuesa",
+          "description": "Refresca tus sentidos con nuestra Limonada con Frambuesa. Una deliciosa mezcla de limón fresco y jugosas frambuesas para un sabor agridulce en cada sorbo",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/85",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 111,
+          "name": "Limonada Mango",
+          "description": "Refresca tus sentidos con nuestra Limonada de Mango. Una mezcla exótica de limón fresco y jugosos mangos y maracuyá que te transportará a un paraíso tropical en cada sorbo.",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/111",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 78,
+          "name": "Limonada Menta",
+          "description": "Refresca tus sentidos con nuestra Limonada con Menta. Una combinación perfecta de limón fresco y hojas de menta para un sabor revitalizante en cada sorbo. Puede incluir jengibre sin costo adicional.",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/78",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 129,
+          "name": "Limonada Tradicional",
+          "description": "Refresca tus sentidos con nuestra Limonada Tradicional, una mezcla de limón fresco y agua con el toque perfecto de dulzura.",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/129",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 126,
+          "name": "Limón Soda",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 192,
+          "name": "Limón Soda Zero",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 352,
+          "name": "Matcha Frío Frambuesa",
+          "description": "Latte frío de matcha con frambuesa, suave, vibrante y perfecto para cualquier momento del día.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/352",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 69,
+          "name": "Milkshake",
+          "description": "Una deliciosa y refrescante bebida hecha a base de leche y helado de diversos sabores que se mezclan en una cremosa y suave consistencia.",
+          "price": 4700.0,
+          "priceDelivery": 4700.0,
+          "pricePickup": 4700.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/69",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 32,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Helado",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 419
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 417
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 418
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 113,
+          "name": "Pap",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 27,
+          "name": "Pepsi",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 26,
+          "name": "Pepsi Zero",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 29,
+          "name": "Sprite",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        },
+        {
+          "id": 170,
+          "name": "Sprite Sin Azúcar",
+          "description": "Lata 350 ml",
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": false,
+          "image": null,
+          "sellAlone": false,
+          "productGroups": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Pasteleria",
+      "position": 225000,
+      "products": [
+        {
+          "id": 67,
+          "name": "Brownie",
+          "description": "Brownie de chocolate y nueces con un toque de almendras",
+          "price": 3000.0,
+          "priceDelivery": 3000.0,
+          "pricePickup": 3000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/67",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 52,
+          "name": "Brownie con Helado",
+          "description": "Brownie de chocolate y nueces con un toque de almendras acompañado de una bolita de helado de vainilla y crema",
+          "price": 4700.0,
+          "priceDelivery": 4700.0,
+          "pricePickup": 4700.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/52",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 198,
+          "name": "Cheesecake-Brownie de Frambuesa",
+          "description": "Base de brownie rellena con una mezcla de queso crema y decorada con mermelada de frambuesa natural.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/198",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 273,
+          "name": "Cheesecake de Maracuyá",
+          "description": "Postre americano con crema a base de queso crema, una base de galletas de chocolate y cobertura de maracuyá.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/273",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 187,
+          "name": "Cheesecake Oreo",
+          "description": "Base de galletas de Oreo rellena con una mezcla de queso crema y decorado con ganache de chocolate.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/187",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 349,
+          "name": "Croissant Frutillas y Nutella",
+          "description": "Croissant relleno con abundantes frutillas frescas, manjar, Nutella y un toque de crema chantilly.",
+          "price": 5990.0,
+          "priceDelivery": 5990.0,
+          "pricePickup": 5990.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/349",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 350,
+          "name": "Croissant Frutillas y Pistacho",
+          "description": "Croissant relleno con abundantes frutillas frescas, manjar, crema de pistachos y un toque de crema chantilly.",
+          "price": 5990.0,
+          "priceDelivery": 5990.0,
+          "pricePickup": 5990.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/350",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 366,
+          "name": "Galletas Surtidas",
+          "description": "Surtido de galletas de mantequilla, vainilla, chocolate y mermelada",
+          "price": 4900.0,
+          "priceDelivery": 4900.0,
+          "pricePickup": 4900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/366",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 375,
+          "name": "Galletón New York Chips",
+          "description": "Galleton con chispas de chocolate.",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/375",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 367,
+          "name": "Galletón New York M&M",
+          "description": "Galleton de vainilla conn trozos de m&m y chocolate blanco 28% cacao.",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/367",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 368,
+          "name": "Galletón New York Nutella",
+          "description": "Galleton de vainilla con trozos de almendras, Chocolate belga 33% cacao, relleno con nutella.",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/368",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 47,
+          "name": "Galletón New York Red Velvet",
+          "description": "Galletón de Red velvet relleno con frosting de queso crema",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/47",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 453,
+          "name": "Huevos de Pascua Rellenos",
+          "description": null,
+          "price": 10500.0,
+          "priceDelivery": 10500.0,
+          "pricePickup": 10500.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 229,
+          "name": "Kuchen de Manzana",
+          "description": "Masa quebrada con crema pastelera tradicional, manzanas caramelizadas y toques de canela.",
+          "price": 3500.0,
+          "priceDelivery": 3500.0,
+          "pricePickup": 3500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/229",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 276,
+          "name": "Muffin Vainilla/Nutella",
+          "description": "Muffins vainilla cubierto con chips de chocolate bitter, relleno de Nutella",
+          "price": 3300.0,
+          "priceDelivery": 3300.0,
+          "pricePickup": 3300.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 454,
+          "name": "Paleta Conejo de Pascua",
+          "description": null,
+          "price": 2000.0,
+          "priceDelivery": 2000.0,
+          "pricePickup": 2000.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 50,
+          "name": "Pie de Limón",
+          "description": "Clásica tarta rellena de leche condensada y jugo de limón natural, merengue suizo dorado.",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/50",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 452,
+          "name": "Pollito de Pascua en su Nido",
+          "description": null,
+          "price": 7900.0,
+          "priceDelivery": 7900.0,
+          "pricePickup": 7900.0,
+          "isAvailable": true,
+          "image": null,
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 13,
+          "name": "Torta 4 Leches",
+          "description": "Bizcocho de vainilla relleno con crema pastelera y manjar, remojado con exquisito remojo 3 leches.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/13",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 384,
+          "name": "Torta ChocoFrambuesa (Sin azúcar)",
+          "description": "Bizcocho de chocolate rellena con mermelada de frambuesa, manjar y crema pastelera.",
+          "price": 5200.0,
+          "priceDelivery": 5200.0,
+          "pricePickup": 5200.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/384",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 21,
+          "name": "Torta Chocolatísima",
+          "description": "Panqueque de chocolate relleno con pasta de chocolate y un toque de almendras, manjar y crema chantilly con frambuesas naturales.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/21",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 311,
+          "name": "Torta Durazno Manjar",
+          "description": "Bizcocho vainilla, rellena con crema con duraznos y manjar con nueces, además de un exquisito remojo 3 leches. Decorada con merengue.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/311",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 94,
+          "name": "Torta Hojarasca Amor",
+          "description": "Torta de hojarasca rellena con crema pastelera, chantilly con frambuesas y manjar.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/94",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 184,
+          "name": "Torta Hojarasca Amor (Sin Azúcar)",
+          "description": "Torta de hojarasca rellena con manjar, crema pastelera y crema con frambuesas naturales, todo 0% azúcar añadida",
+          "price": 5200.0,
+          "priceDelivery": 5200.0,
+          "pricePickup": 5200.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/184",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 191,
+          "name": "Torta Hojarasca Pompadour",
+          "description": "Deliciosa pompadour de hojarasca. rellena con crema, manjar, nueces y plátano natural.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/191",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 372,
+          "name": "Torta Hojarasca Pompadour (Sin Azucar)",
+          "description": "Deliciosa pompadour de hojarasca. rellena con crema, manjar, nueces y plátano natural endulzado con alulosa.",
+          "price": 5200.0,
+          "priceDelivery": 5200.0,
+          "pricePickup": 5200.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/372",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 74,
+          "name": "Torta Limón Frambuesa",
+          "description": "Bizcocho con frambuesas naturales, relleno con curd de limon y reducción de frambuesas naturales",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/74",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 16,
+          "name": "Torta Maracuyá",
+          "description": "Bizcocho de vainilla relleno con crema de maracuyá y pasta de chocolate blanco.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/16",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 151,
+          "name": "Torta Matilda",
+          "description": "Bizcocho de chocolate rellena con ganache de chocolate y manjar, una explosión de chocolate. ¡Bruce! ¡Bruce! ¡Bruce!",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/151",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 265,
+          "name": "Torta Panqueque Naranja",
+          "description": "Panqueques de naranja rellenos con crema de naranja",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/265",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 18,
+          "name": "Torta Rebeca",
+          "description": "Bizcochuelo de vainilla con remojo de 3 leches relleno de crema chantilly con frutillas y manjar nuez .",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/18",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 14,
+          "name": "Torta Red Velvet",
+          "description": "Bizcocho húmedo de terciopelo rojo, relleno con frosting de queso crema y reducción de frutos rojos.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/14",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 227,
+          "name": "Torta San Jorge",
+          "description": "Torta de hojarasca rellena con crema con puré de lúcuma y manjar",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/227",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 20,
+          "name": "Torta Zanahoria",
+          "description": "Bizcocho de zanahoria y nueces relleno con frosting de queso crema.",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/20",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 212,
+          "name": "Volcán de Chocolate",
+          "description": "Volcán de Chocolate con frutas de la estación, bolita de helado de vainilla y crema chantilly.",
+          "price": 6400.0,
+          "priceDelivery": 6400.0,
+          "pricePickup": 6400.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/212",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 297,
+          "name": "Waffle",
+          "description": "Waffle acompañado con frutas de la estación, bolita de helado de vainilla, crema chantilly y una salsa a elección: chocolate, manjar, frambuesa o caramelo.",
+          "price": 6400.0,
+          "priceDelivery": 6400.0,
+          "pricePickup": 6400.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/297",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 31,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Salsa",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 413
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 416
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 414
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 415
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Salados",
+      "position": 300000,
+      "products": [
+        {
+          "id": 341,
+          "name": "Bagels de Salmón Ahumado",
+          "description": "Un delicioso bagel de salmón ahumado, acompañado de queso crema con ciboulette fresca, lechuga crocante y p alta. Una opción perfecta para un desayuno o brunch elegante, combinando sabores delicados y texturas variadas para una experiencia irresistible.",
+          "price": 7950.0,
+          "priceDelivery": 7950.0,
+          "pricePickup": 7950.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/341",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 54,
+          "name": "Cabrese",
+          "description": "Pan ciabatta con queso de cabra, tomate, aceitunas y pesto",
+          "price": 7600.0,
+          "priceDelivery": 7600.0,
+          "pricePickup": 7600.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/54",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 330,
+          "name": "Ciabatta Hummus",
+          "description": "Pan ciabatta con base de hummus, aceitunas, lechuga y tomate",
+          "price": 6700.0,
+          "priceDelivery": 6700.0,
+          "pricePickup": 6700.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/330",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 56,
+          "name": "Franchute",
+          "description": "Pan crossiant con queso mantecoso y jamón",
+          "price": 5400.0,
+          "priceDelivery": 5400.0,
+          "pricePickup": 5400.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/56",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 55,
+          "name": "Fresquito",
+          "description": "Pan ciabatta con queso mantecoso, jamón, lechuga, tomate y mayonesa",
+          "price": 7200.0,
+          "priceDelivery": 7200.0,
+          "pricePickup": 7200.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/55",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 99,
+          "name": "Mechada Italiana",
+          "description": "Ciabatta con sabrosa carne mechada, tomate, palta y mayonesa",
+          "price": 8300.0,
+          "priceDelivery": 8300.0,
+          "pricePickup": 8300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/99",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 98,
+          "name": "Mechada Luco",
+          "description": "Ciabatta con sabrosa carne mechada y queso mantecoso",
+          "price": 8200.0,
+          "priceDelivery": 8200.0,
+          "pricePickup": 8200.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/98",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 90,
+          "name": "Miga Ave Mayo",
+          "description": "Pan de molde con pollo asado desmenuzado y mayonesa",
+          "price": 5300.0,
+          "priceDelivery": 5300.0,
+          "pricePickup": 5300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/90",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 116,
+          "name": "Miga Ave Palta Mayo",
+          "description": "Pan de molde con pollo desmenuzado, mayonesa y palta",
+          "price": 5700.0,
+          "priceDelivery": 5700.0,
+          "pricePickup": 5700.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/116",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 77,
+          "name": "Miga Hummus",
+          "description": "Pan de molde con base de hummus, aceitunas, lechuga y tomate",
+          "price": 5400.0,
+          "priceDelivery": 5400.0,
+          "pricePickup": 5400.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/77",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 57,
+          "name": "Miga Mixta",
+          "description": "Pan de molde con queso mantecoso y jamón",
+          "price": 4600.0,
+          "priceDelivery": 4600.0,
+          "pricePickup": 4600.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/57",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 115,
+          "name": "Napolitano",
+          "description": "Pan ciabatta con queso mantecoso, jamón, tomate, aceituna y orégano",
+          "price": 7200.0,
+          "priceDelivery": 7200.0,
+          "pricePickup": 7200.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/115",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 369,
+          "name": "Pizza Caprichosa (Individual)",
+          "description": "Nuestra clásica pizza napolitana con salsa de tomates, trozos de alcachofa y jamón. Una mezcla deliciosa y equilibrada, con masa delgada y bordes doraditos, perfecta para compartir.",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/369",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 362,
+          "name": "Pizza ChampiPesto (Individual)",
+          "description": "Salsa de tomates, champiñones, pesto y queso sobre masa napoletana fina y crujiente.",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/362",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 361,
+          "name": "Pizza Napolitana (Individual)",
+          "description": "Salsa de tomate, jamón, aceitunas y queso sobre masa napoletana fina y sabrosa.",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/361",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 363,
+          "name": "Pizza Pepperoni (Individual)",
+          "description": "Salsa de tomate, pepperoni y queso sobre masa napoletana fina y sabrosa.",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": false,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/363",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 360,
+          "name": "Pizza Toscana (Individual)",
+          "description": "Masa napoletana delgada, salsa de tomate, aceitunas y cebolla caramelizada. Equilibrio perfecto entre dulzor y sabor intenso",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/360",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 89,
+          "name": "Pollo Paltón",
+          "description": "Pan ciabatta con una cama de pollo asado, mayonesa, palta, tomate y rúcula",
+          "price": 8300.0,
+          "priceDelivery": 8300.0,
+          "pricePickup": 8300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/89",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 58,
+          "name": "Quesadilla Mixta",
+          "description": "Un par de tortillas rellenas con queso y jamón",
+          "price": 4300.0,
+          "priceDelivery": 4300.0,
+          "pricePickup": 4300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/58",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 59,
+          "name": "Quesadilla Napolitana",
+          "description": "Un par de tortillas rellenas con queso, jamón, tomate, aceitunas y orégano",
+          "price": 4500.0,
+          "priceDelivery": 4500.0,
+          "pricePickup": 4500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/59",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 195,
+          "name": "Tostadas con Palta",
+          "description": "Pan de miga tostado con palta.",
+          "price": 4300.0,
+          "priceDelivery": 4300.0,
+          "pricePickup": 4300.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/195",
+          "sellAlone": true,
+          "productGroups": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Combos",
+      "position": 450000,
+      "products": [
+        {
+          "id": 381,
+          "name": "Brunch (Disponible hasta las 13:00)",
+          "description": "El Brunch está pensado para compartir algo rico: 2 yogurt con granola y fruta fresca, dos cappuccino, té o americano, dos jugos naturales. Viene con tostadas y acompañamientos de salmón ahumado, palta fresca, queso crema y hummus. A parte un trozo de torta a elección junto con cualquiera de estas opciones: un Muffin, un Galletón New York, un Brownie, un Kuchen o un Pie de limón.",
+          "price": 24900.0,
+          "priceDelivery": 24900.0,
+          "pricePickup": 24900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/381",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 24,
+              "maxQuantity": 7.0,
+              "minQuantity": 1.0,
+              "name": "Brunch",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 3
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 67
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 421
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 4
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 11
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 375
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 370
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 367
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 368
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 47
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 37
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 423
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 426
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 425
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 424
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 229
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 48
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 280
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 326
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 275
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 276
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 50
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 42
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 13
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 19
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 21
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 311
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 94
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 900.0,
+                  "productId": 184
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 191
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 900.0,
+                  "productId": 372
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 74
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 151
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 265
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 18
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 14
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 227
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 15
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 20
+                }
+              ],
+              "title": "Brunch",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 64,
+          "name": "Combo Pareja",
+          "description": "2 Té Adagio o Cappuccino (Tradicional o con sabor) + 2 Jugos pequeños + 2 porciones de torta + 1 Sandwich en Ciabatta para compartir (Cabrese, Fresquito o Napolitano)",
+          "price": 24500.0,
+          "priceDelivery": 24500.0,
+          "pricePickup": 24500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/64",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 2,
+              "maxQuantity": 7.0,
+              "minQuantity": 1.0,
+              "name": "Combo Pareja",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 198
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 273
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 187
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 278
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1000.0,
+                  "productId": 60
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1300.0,
+                  "productId": 73
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1200.0,
+                  "productId": 36
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 330
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1000.0,
+                  "productId": 34
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 55
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 423
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 426
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 425
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 424
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 236
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 229
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 49
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 48
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 280
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 228
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 300.0,
+                  "productId": 39
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 700.0,
+                  "productId": 179
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 700.0,
+                  "productId": 40
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1000.0,
+                  "productId": 68
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 99
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 98
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 90
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 116
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 77
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 700.0,
+                  "productId": 41
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 115
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 50
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 89
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 100.0,
+                  "productId": 233
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 100.0,
+                  "productId": 156
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 42
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 100
+                },
+                {
+                  "maxQuantity": 5.0,
+                  "price": 400.0,
+                  "productId": 327
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 13
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 19
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 296
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 800.0,
+                  "productId": 384
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 21
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 800.0,
+                  "productId": 143
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 311
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 94
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 800.0,
+                  "productId": 184
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 191
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 800.0,
+                  "productId": 372
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 74
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 400.0,
+                  "productId": 239
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 16
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 151
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 299
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 800.0,
+                  "productId": 259
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 23
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 265
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 22
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 65
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 18
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 14
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 227
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 334
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 15
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 79
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 20
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 3
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 341
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 52
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 54
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 1200.0,
+                  "productId": 35
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 4
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 11
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 500.0,
+                  "productId": 178
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 200.0,
+                  "productId": 266
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 10
+                }
+              ],
+              "title": "Combo Pareja",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "name": "Combo Premium",
+          "description": "Té Adagio o Cappuccino (Tradicional o con sabor) + Jugo pequeño + Porción de torta + Sandwich en Ciabatta (Cabrese, Fresquito o Napolitano)",
+          "price": 15800.0,
+          "priceDelivery": 15800.0,
+          "pricePickup": 15800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/63",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 3,
+              "maxQuantity": 4.0,
+              "minQuantity": 1.0,
+              "name": "Combo Premium",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 3
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 341
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 52
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 54
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1200.0,
+                  "productId": 35
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 4
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 11
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 500.0,
+                  "productId": 178
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 200.0,
+                  "productId": 266
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 198
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 273
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 187
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 278
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1200.0,
+                  "productId": 60
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1500.0,
+                  "productId": 73
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1200.0,
+                  "productId": 36
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 330
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 55
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 423
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 426
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 425
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 424
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 236
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 229
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 49
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 48
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 228
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 400.0,
+                  "productId": 39
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 700.0,
+                  "productId": 179
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 700.0,
+                  "productId": 40
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 68
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 99
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 98
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 90
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 116
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 77
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 41
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 115
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 50
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 1000.0,
+                  "productId": 89
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 100.0,
+                  "productId": 233
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 100.0,
+                  "productId": 156
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 42
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 100
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 13
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 19
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 296
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 384
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 21
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 143
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 311
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 94
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 184
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 191
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 372
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 74
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 16
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 151
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 299
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 800.0,
+                  "productId": 259
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 23
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 265
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 22
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 304
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 65
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 18
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 14
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 227
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 15
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 79
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 20
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 10
+                }
+              ],
+              "title": "Combo Premium",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 431,
+          "name": "Fondue para 2",
+          "description": "Disfruta de una fondue de chocolate de leche para dos, acompañada de frescas frutillas, plátanos, esponjosos marshmallows y crujientes waffles. Un delicioso postre ideal para compartir momentos dulces e inolvidables.",
+          "price": 15900.0,
+          "priceDelivery": 15900.0,
+          "pricePickup": 15900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/431",
+          "sellAlone": true,
+          "productGroups": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sin Gluten/Veganos",
+      "position": 550000,
+      "products": [
+        {
+          "id": 329,
+          "name": "Cinnamon Rolls (Sin Gluten, Sin Lactosa)",
+          "description": "Rollos de canela sin gluten ni lactosa, elaborada con harina certificada Aliarfood, compuesta por harina de arroz, almidón de maíz y almidón de mandioca",
+          "price": 3900.0,
+          "priceDelivery": 3900.0,
+          "pricePickup": 3900.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/329",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 448,
+          "name": "Galleta Vegan Amapola (VG)",
+          "description": "Galleta con amapolas y toque a limón. Vegana.",
+          "price": 3000.0,
+          "priceDelivery": 3000.0,
+          "pricePickup": 3000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/448",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 327,
+          "name": "Torta 3 Leches (Sin Gluten)",
+          "description": "Porción de torta 3 leches sin gluten, elaborada con harina certificada Aliarford, compuesta por harina de arroz, almidón de maíz y almidona de mandioca",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/327",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 374,
+          "name": "Torta Amapola (Sin Gluten, Sin Lactosa)",
+          "description": "Bizcocho con semillas de amapola, rellena de frambuesas naturales, manjar y crema diplomática",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/374",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 338,
+          "name": "Torta Red Velvet (Sin Gluten)",
+          "description": "Bizcocho Red Velvet esponjoso elaborado con nuestra mezcla de tres harinas sin gluten, remojado en una suave mezcla tres leches, coronado con un frosting clásico de queso crema. Una combinación delicada y elegante, perfecta para los amantes de lo clásico",
+          "price": 5500.0,
+          "priceDelivery": 5500.0,
+          "pricePickup": 5500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/338",
+          "sellAlone": true,
+          "productGroups": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Helados",
+      "position": 650000,
+      "products": [
+        {
+          "id": 92,
+          "name": "Helado Doble",
+          "description": "2 bolitas de helado a elección.",
+          "price": 2500.0,
+          "priceDelivery": 2500.0,
+          "pricePickup": 2500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/92",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 33,
+              "maxQuantity": 2.0,
+              "minQuantity": 1.0,
+              "name": "Helado Doble",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 419
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 417
+                },
+                {
+                  "maxQuantity": 2.0,
+                  "price": 0.0,
+                  "productId": 418
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "name": "Helado Simple",
+          "description": "Una bolita de helado a elección.",
+          "price": 1800.0,
+          "priceDelivery": 1800.0,
+          "pricePickup": 1800.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/96",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 32,
+              "maxQuantity": 1.0,
+              "minQuantity": 1.0,
+              "name": "Sabor Helado",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 419
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 417
+                },
+                {
+                  "maxQuantity": 1.0,
+                  "price": 0.0,
+                  "productId": 418
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "name": "Helado Triple",
+          "description": "3 bolitas de helado a elección.",
+          "price": 3000.0,
+          "priceDelivery": 3000.0,
+          "pricePickup": 3000.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/93",
+          "sellAlone": true,
+          "productGroups": [
+            {
+              "id": 34,
+              "maxQuantity": 3.0,
+              "minQuantity": 1.0,
+              "name": "Helado Triple",
+              "productGroupProducts": [
+                {
+                  "maxQuantity": 3.0,
+                  "price": 0.0,
+                  "productId": 419
+                },
+                {
+                  "maxQuantity": 3.0,
+                  "price": 0.0,
+                  "productId": 417
+                },
+                {
+                  "maxQuantity": 3.0,
+                  "price": 0.0,
+                  "productId": 418
+                }
+              ],
+              "title": "",
+              "priceAggregation": "SUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Ensaladas",
+      "position": 750000,
+      "products": [
+        {
+          "id": 213,
+          "name": "Ensalada César",
+          "description": "Cama de lechuga acompañado de pollo asado desmenuzado, tomates, palta cubierto de queso parmesano y un buen toque de salsa cesar y ricos crutones con toques de aceite de oliva y orégano (Disponible hasta las 17:00)",
+          "price": 7500.0,
+          "priceDelivery": 7500.0,
+          "pricePickup": 7500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/213",
+          "sellAlone": true,
+          "productGroups": []
+        },
+        {
+          "id": 215,
+          "name": "Ensalada “La Queen”",
+          "description": "Cama de lechuga acompañado con tomates en gajos, ricas aceitunas y quesillo en cubitos.y con el rico sabor de una cemosa palta reina y los respectivos crutones con un toque de aceite de oliva y oregano (Disponible hasta las 17:00)",
+          "price": 7500.0,
+          "priceDelivery": 7500.0,
+          "pricePickup": 7500.0,
+          "isAvailable": true,
+          "image": "https://fudo-apps-storage.s3.sa-east-1.amazonaws.com/production/105302/common/products/215",
+          "sellAlone": true,
+          "productGroups": []
+        }
+      ]
+    }
+  ]
+}

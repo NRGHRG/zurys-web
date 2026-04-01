@@ -1,86 +1,204 @@
-export type ProductCategory =
-  | "cafeteria"
-  | "tortas-pasteleria"
-  | "sandwiches"
-  | "promociones";
+import menuData from "@/data/zurys_menu.json";
+
+export type ProductCategory = string;
 
 export type Product = {
   id: string;
   name: string;
   description: string;
   price: number;
-  image: string;
+  image: string | null;
   category: ProductCategory;
+  categoryLabel: string;
+  isAvailable: boolean;
   featured?: boolean;
 };
 
+type MenuCategory = {
+  id: number | string;
+  name: string;
+  position?: number;
+  products?: MenuProduct[];
+};
+
+type MenuProduct = {
+  id: number | string;
+  name: string;
+  description: string | null;
+  price?: number;
+  pricePickup?: number;
+  priceDelivery?: number;
+  isAvailable?: boolean;
+  image: string | null;
+};
+
+type MenuData = {
+  categories?: MenuCategory[];
+};
+
+type CategoryOption = {
+  value: ProductCategory;
+  label: string;
+  position: number;
+};
+
+const FALLBACK_DESCRIPTION = "Deliciosa preparación de Zurys.";
+const MAX_FEATURED_PRODUCTS = 6;
+
+function slugify(value: string) {
+  return value
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}+/gu, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function toSafePrice(product: MenuProduct) {
+  return Number(product.price ?? product.pricePickup ?? product.priceDelivery ?? 0);
+}
+
+const rawCategories = ((menuData as MenuData).categories ?? []).filter(
+  (category) => Array.isArray(category.products) && category.products.length > 0,
+);
+
+const categorySlugUsage = new Map<string, number>();
+
+const categoryOptions: CategoryOption[] = rawCategories
+  .map((category) => {
+    const baseSlug = slugify(category.name) || `categoria-${String(category.id)}`;
+    const usageCount = categorySlugUsage.get(baseSlug) ?? 0;
+
+    categorySlugUsage.set(baseSlug, usageCount + 1);
+
+    const slug = usageCount === 0 ? baseSlug : `${baseSlug}-${usageCount + 1}`;
+
+    return {
+      value: slug,
+      label: category.name.trim(),
+      position: Number(category.position ?? 0),
+    };
+  })
+  .sort((a, b) => a.position - b.position);
+
+const categoryLabelBySlug = new Map(
+  categoryOptions.map((category) => [category.value, category.label]),
+);
+
+function findCategorySlugByLabel(label: string) {
+  const normalizedLabel = slugify(label);
+
+  return categoryOptions.find((category) => slugify(category.label) === normalizedLabel)?.value;
+}
+
+export const menuCategoryGroups = {
+  cafeteria: [findCategorySlugByLabel("Bebidas Caliente"), findCategorySlugByLabel("Bebidas Frias")].filter(
+    (category): category is ProductCategory => Boolean(category),
+  ),
+  "tortas-pasteleria": [
+    findCategorySlugByLabel("Pasteleria"),
+    findCategorySlugByLabel("Sin Gluten/Veganos"),
+  ].filter((category): category is ProductCategory => Boolean(category)),
+  promociones: [findCategorySlugByLabel("Combos")].filter(
+    (category): category is ProductCategory => Boolean(category),
+  ),
+  sandwiches: [findCategorySlugByLabel("Salados")].filter(
+    (category): category is ProductCategory => Boolean(category),
+  ),
+} as const;
+
+const flattenedProducts = rawCategories.flatMap((category) => {
+  const categorySlug = categoryOptions.find((option) => option.label === category.name)?.value;
+
+  if (!categorySlug) {
+    return [];
+  }
+
+  return (category.products ?? []).map((product) => ({
+    id: String(product.id),
+    name: product.name,
+    description:
+      typeof product.description === "string" && product.description.trim().length > 0
+        ? product.description
+        : FALLBACK_DESCRIPTION,
+    price: toSafePrice(product),
+    image:
+      typeof product.image === "string" && product.image.trim().length > 0
+        ? product.image
+        : null,
+    category: categorySlug,
+    categoryLabel: categoryLabelBySlug.get(categorySlug) ?? category.name,
+    isAvailable: product.isAvailable !== false,
+  }));
+});
+
+const preferredFeaturedCategories = [
+  findCategorySlugByLabel("Combos"),
+  findCategorySlugByLabel("Pasteleria"),
+  findCategorySlugByLabel("Bebidas Caliente"),
+  findCategorySlugByLabel("Bebidas Frias"),
+  findCategorySlugByLabel("Salados"),
+  findCategorySlugByLabel("Sin Gluten/Veganos"),
+].filter((category): category is ProductCategory => Boolean(category));
+
+const featuredProductIds = new Set<string>();
+
+for (const category of preferredFeaturedCategories) {
+  const candidate = flattenedProducts.find(
+    (product) => product.category === category && product.image && product.isAvailable,
+  );
+
+  if (candidate) {
+    featuredProductIds.add(candidate.id);
+  }
+
+  if (featuredProductIds.size >= MAX_FEATURED_PRODUCTS) {
+    break;
+  }
+}
+
+if (featuredProductIds.size < MAX_FEATURED_PRODUCTS) {
+  for (const product of flattenedProducts) {
+    if (featuredProductIds.size >= MAX_FEATURED_PRODUCTS) {
+      break;
+    }
+
+    if (product.image && product.isAvailable) {
+      featuredProductIds.add(product.id);
+    }
+  }
+}
+
+if (featuredProductIds.size < MAX_FEATURED_PRODUCTS) {
+  for (const product of flattenedProducts) {
+    if (featuredProductIds.size >= MAX_FEATURED_PRODUCTS) {
+      break;
+    }
+
+    if (product.isAvailable) {
+      featuredProductIds.add(product.id);
+    }
+  }
+}
+
+export const products: Product[] = flattenedProducts.map((product) => ({
+  ...product,
+  featured: featuredProductIds.has(product.id),
+}));
+
 export const productCategories: { value: ProductCategory | "all"; label: string }[] = [
   { value: "all", label: "Todos" },
-  { value: "cafeteria", label: "Cafetería" },
-  { value: "tortas-pasteleria", label: "Tortas y Pastelería" },
-  { value: "sandwiches", label: "Sandwiches" },
-  { value: "promociones", label: "Promociones" },
+  ...categoryOptions.map((category) => ({
+    value: category.value,
+    label: category.label,
+  })),
 ];
 
-export const products: Product[] = [
-  {
-    id: "latte-vainilla",
-    name: "Latte Vainilla",
-    description: "Espresso doble, leche texturizada y vainilla natural.",
-    price: 3900,
-    image:
-      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
-    category: "cafeteria",
-    featured: true,
-  },
-  {
-    id: "cold-brew",
-    name: "Cold Brew Citrus",
-    description: "Extracción en frío por 18 horas con toque cítrico.",
-    price: 4200,
-    image:
-      "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1200&q=80",
-    category: "cafeteria",
-  },
-  {
-    id: "torta-pistacho",
-    name: "Torta Pistacho Premium",
-    description: "Bizcocho húmedo, crema de pistacho y cobertura suave.",
-    price: 32900,
-    image:
-      "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80",
-    category: "tortas-pasteleria",
-    featured: true,
-  },
-  {
-    id: "tarta-frutas",
-    name: "Tarta Frutas Estación",
-    description: "Masa sablé, crema pastelera y fruta fresca seleccionada.",
-    price: 28900,
-    image:
-      "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=1200&q=80",
-    category: "tortas-pasteleria",
-  },
-  {
-    id: "croissant-jamon-queso",
-    name: "Croissant Jamón & Queso",
-    description: "Hojaldre mantequillado relleno con jamón ahumado y queso.",
-    price: 4900,
-    image:
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
-    category: "sandwiches",
-  },
-  {
-    id: "brunch-zurys",
-    name: "Brunch Zurys",
-    description: "2 cafés + 2 croissants + mini torta del día.",
-    price: 14900,
-    image:
-      "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1200&q=80",
-    category: "promociones",
-    featured: true,
-  },
-];
+export const menuCategories = categoryOptions.map((category) => ({
+  value: category.value,
+  label: category.label,
+  productCount: products.filter((product) => product.category === category.value).length,
+}));
 
 export const testimonials = [
   {
